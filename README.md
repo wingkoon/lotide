@@ -26,16 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `countLetters(readString)`: This function read a string and return the result in an object with letters or characters in the string as the keys and the count is the key value.
-* `countOnly(allItems, itemsToCount)`: 
-* `eqArrays(actual, expected)`: description
-* `eqObjects(object1, object2)`:
-* `findKey(objects, callback)`:
-* `findKeyByValue(genre, genreValue)`:
-* `flatten(array)`:
-* `head(array)`:
-* `letterPositions(sentence)`:
-* `map(array, callback)`:
-* `middle(array)`:
-* `takeUntil(array, callback)`:
-* `without(array1, array2)`:
+* `assertArraysEqual(actual, expected)`: This function compares two arrays to see if they are identical. It reports the reult from the module eqArrays(actual, expected).
+* `assertEqual(actual, expected)`: This function compares two strings to see if they are identical.
+* `assertObjectsEquals(actual, expected)`: This function compares two objects to see if they are identical. It reports the result from the module eqObjects(object1, object2).
+* `countLetters(readString)`: This function counts each letter in the sentence and report its frequency as the object.
+* `countOnly(allItems, itemsToCount)`: This function counts only each item, of the array itemsToCount, in the object allItems.
+* `eqArrays(actual, expected)`: This function compares two arrays to see if they are identical. 
+* `eqObjects(object1, object2)`: This function compares two objects to see if they are identical.
+* `findKey(objects, callback)`: This function finds the first key in objects that satisfies the condition specifies in callback.
+* `findKeyByValue(genre, genreValue)`: This function find the corresponding genre from genre value.
+* `flatten(array)`: This function flattens an array with one or more array inside. Finally it becomes a single level array.
+* `head(array)`: This function retrieves the first element of array.
+* `letterPositions(sentence)`: This function reads a sentence and returns an object with each letter positions indicated in the corresponding arrays.
+* `map(array, callback)`: This function returns an array that satisfied certain condition specified by the callback.
+* `middle(array)`: This function returns the middle elements of an array. If the array length is odd, it returns the single middle element in the array. If the array length is even, it returns the middle two elements in the array.
+* `tail(array)`: This function returns an array from second to last element.
+* `takeUntil(array, callback)`: This functions retrieves all elements in an array that satisfies the condition specifies by callback.
+* `without(array1, array2)`: This function will filter out elements of array2 in the array1.

@@ -1,7 +1,7 @@
-
+//This function retrieves the first element of array.
 const head = function(array) {
   let first = "";
-  if (array === []) {
+  if (array.lenth === 0) {
     first = "undefined";
   } else {
     first = array[0];

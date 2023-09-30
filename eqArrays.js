@@ -1,4 +1,5 @@
-
+//This function compares two arrays to see if they are identical.
+//The returned value equal is true if identical, false if not. 
 const eqArrays = function(actual, expected) {
   let equal = true;
   if (actual.length === expected.length) {

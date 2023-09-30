@@ -1,3 +1,6 @@
+//This function returns the middle elements of an array. 
+//If the array length is odd, it returns the single middle element in the array. 
+//If the array length is even, it returns the middle two elements in the array.
 const middle = function(array) {
   let midArray = [];
   if (array.length > 2) {
@@ -15,4 +18,3 @@ const middle = function(array) {
 };
 
 module.exports = middle;
-

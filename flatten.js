@@ -1,3 +1,5 @@
+//This function flattens an array with one or more array inside. Finally it becomes a single level array.
+//flatten([1, 2, [3, 4], 5, [6]]); // => [1, 2, 3, 4, 5, 6]
 const flatten = function(array) {
   let flatArray = [];
   let k = 0;
@@ -18,7 +20,3 @@ const flatten = function(array) {
 };
 
 module.exports = flatten;
-
-/*flatten([1, 2, [3, 4], 5, [6]]); // => [1, 2, 3, 4, 5, 6]
-assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
-*/

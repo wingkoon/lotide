@@ -1,3 +1,4 @@
+//This function returns the corresponding genre from genre value.
 const findKeyByValue = function(genre, genreValue) {
   for (let prop in genre) {
     if (genre.hasOwnProperty(prop)) {
@@ -10,13 +11,3 @@ const findKeyByValue = function(genre, genreValue) {
 };
 
 module.exports = findKeyByValue;
-
-/*const bestTVShowsByGenre = {
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
-
-assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
-*/

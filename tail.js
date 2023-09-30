@@ -1,8 +1,7 @@
-
-
+//This function returns an array from second to last element.
 const tail = function(array) {
   let tailThing = [];
-  if (array === []) {
+  if (array.length === 0) {
     tailThing = [];
   } else {
     tailThing = array.slice(1,array.length);
@@ -11,4 +10,3 @@ const tail = function(array) {
 };
 
 module.exports = tail;
-

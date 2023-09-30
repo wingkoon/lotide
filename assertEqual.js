@@ -1,4 +1,5 @@
-// FUNCTION IMPLEMENTATION
+//Make the function compare the two values it takes in and print out a message telling us if they match or not.
+//There are two parameters: actual and expected. They are strings or values.
 const assertEqual = function(actual, expected) {
   const correctEmoji = "😃😃😃";
   const errorEmoji = "🫣🫣🫣";
